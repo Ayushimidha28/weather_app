@@ -8,7 +8,7 @@ const two=document.querySelector('#n')
 wf.addEventListener('submit',(e)=>{
     e.preventDefault()
     const l=s.value
-    fetch("http://localhost:3000/weather?address="+l).then((response)=>{
+    fetch("/weather?address="+l).then((response)=>{
     response.json().then((data)=>{ 
         if(data.error)
         console.log("Errorrrrrr")

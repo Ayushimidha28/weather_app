@@ -1,12 +1,12 @@
 h1{
-    color: aqua;
+    color:darkblue;
 }
 img{
     width: 100px;
     height:100px
 }
 body{
-    background-color: chocolate;
+    background-color: wheat;
     color: brown;
     font-family: Arial;
     max-width: 650px;
@@ -25,7 +25,7 @@ footer{
     color:orange;
     margin:16px;
     padding:16px;
-    border-top:10px solid gray;
+    border-top:1px solid gray;
     margin: 16px;
     padding: 16px;
 }
@@ -37,13 +37,15 @@ header a{
     margin-bottom:10px ;
     margin-top:1px solid black;
     margin-right: 20px ;
-    color: greenyellow;
+    color: rgb(1, 22, 114);
 }
 button{
-    color: grey;
+    color: rgb(11, 13, 138);
     font-style: italic;
     
 }
 input{
-    border:10px;
+    border:20px;
+    max-width: 250px;
+    max-height: 400px;
 }
