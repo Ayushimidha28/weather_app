@@ -12,7 +12,7 @@ const forecast=function(x,y,callback){
        callback(body.error,undefined )
        }
        else 
-       callback(undefined , body.currently.summary +" this is the tamperature " + body.currently.temperature +" this is blah blah blah "+ body.currently.cloudCover )})
+       callback(undefined , body.currently.summary +" this is the temperature " + body.currently.temperature +" this is the cloud cover "+ body.currently.cloudCover )})
     },2000)
 
 }
